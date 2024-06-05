@@ -10,7 +10,7 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 	margin: 0;
 	padding: 0;
 	border: 0;
-	/*outline: 0;*/
+	outline: 0;
 	font-weight: inherit;
 	font-style: inherit;
 	font-size: 100%;
@@ -46,36 +46,9 @@ blockquote, q {
 	quotes: "" "";
 }
 
-/* to do lists
-vAA 加入banner區塊
-
-A header border 偽元素 調整位置
-A 全網頁字型 "Noto Sans TC"
-
-
-
-.header
-ul 置中
-menu-icon 大小調整
-ul 
-
-
-.footer
-字體
-footer-logo
-間隔
-
-按鈕間隔
-按鈕靠左 ul margin?
-按鈕內符號靠左對齊
-下兩顆按鈕背景 白
-按鈕內padding 大小調整
-
-body 54, 24
-*/
-
 *,*:before,*:after{
-  outline: 1px solid black;/**/text-decoration: none;
+  /*outline: 1px solid black;*/
+  text-decoration: none;
   box-sizing: border-box;
 }
 
