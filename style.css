@@ -212,7 +212,8 @@ a {
     max-width: 670px;
     color: #1E1E1E;
     text-align: center;
-    border: 1px solid #fafafa;/*不加會跑版*/
+    border: 1px solid #fafafa;
+    /*不加會跑版*/
 }
 
 .banner .title-1 h1 {
