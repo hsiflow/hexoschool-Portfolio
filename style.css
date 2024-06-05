@@ -130,7 +130,7 @@ a {
     -webkit-box-reflect: below 16px;
 }
   
-menu .menu-list a::before {
+.menu .menu-list a::before {
     top: 0;
     left: 0;
     border-right: none;
@@ -204,12 +204,12 @@ menu .menu-list a::before {
     max-width: 1296px;
     width: 98%;
     margin: 59px auto 0;
-}/**/
+}
 
 .banner .title-1{
     position: relative;
     height: 192px;
-    max-width: 670px;    
+    max-width: 670px;
     color: #1E1E1E;
     text-align: center;
     border: 1px solid #fafafa;/*不加會跑版*/
@@ -259,7 +259,6 @@ menu .menu-list a::before {
     max-width: 636px;
     display: flex;
     justify-content: space-between;
-    /*border: 1px solid pink;*/
 }
 
 .section{
@@ -267,7 +266,6 @@ menu .menu-list a::before {
     text-align: center;
     margin-top: 24px;
     color: #3B3B3B;
-    /*border: 1px solid #000;*/
 }
 
 .section h2{
@@ -363,17 +361,11 @@ menu .menu-list a::before {
     padding: 10px;
   }
   
-  /*@media (max-width: 767px){
-    h2 {
-      font-size: 15px;
-    }
-  }*/
-  
 .item p{
     font-size: 10px;
     padding: 10px;
     color: #9B9B9B;
-  }
+}
   
 .tag {
     font-size: 10px;
@@ -383,26 +375,26 @@ menu .menu-list a::before {
     padding: 0;
 }
   
-  .tag li {
+.tag li {
     display: flex;
     flex-flow: nowrap;
     white-space: nowrap;    
     /*width: 100%;*/
     text-align: center;
-  }
+}
   
-  .tag a {
+.tag a {
     background: #F1F1F1;
     margin: 6px;
     padding: 4px 6px;
     border-radius: 16px;
     justify-content: center;  
-  }
+}
   
-  .tag a:hover {
+.tag a:hover {
     color: white;
     background: gray;
-  }
+}
 
 /*頁碼樣式*/
 .pages {
@@ -431,8 +423,8 @@ menu .menu-list a::before {
     background: #1e1e1e;
 }  
   
-  /*表尾樣式*/
-  .footer {
+/*表尾樣式*/
+.footer {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -440,9 +432,8 @@ menu .menu-list a::before {
     background-image: url("https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/2024%20web-camp/footer-bg-lg.png");
     background-position: center;
     background-size: cover;
-  }
-  
-  /**/
+}
+
 @media (max-width: 767px) {
   .footer {
    flex-direction: column;
@@ -508,7 +499,6 @@ menu .menu-list a::before {
     padding: 8px 24px 8px 24px;
     gap: 8px;
     border-radius: 8px;
-    opacity: 0px;
 }
 
 @media (max-width: 767px) {
@@ -530,8 +520,7 @@ menu .menu-list a::before {
   
 .footerContact  svg {
     padding-right: 10px;
-  }
-
+}
   
 /*modal 互動視窗樣式*/
 .modal-dialog {
@@ -558,10 +547,6 @@ menu .menu-list a::before {
     flex-flow: row wrap;
 }
   
-  /*.modal-paragraph p {
-    display: inline-block;
-  }*/
-  
 .modal-body {
     margin: 80px;  
     /*max-width:?;*/  
@@ -571,11 +556,5 @@ menu .menu-list a::before {
     width: 100%;
     height: auto;
 }
-  
-  /*@media (max-width: 768px) {
-  .title {
-  color: red;
-  }
-    width:100%;
-  }*/
+
   
